@@ -1,0 +1,59 @@
+##MPG Regression 
+The only variable that had a linear regression with mpg was vehicle length. As the vehicle length went up, the mpg went up.
+
+p-value: 5.35e-11:
+According to the p-value, the slope of the linear model is not zero. The p-value is smaller than our assumed significance level of 0.05%. Therefore, there is sufficient evidence to reject our null hypothesis. 
+
+Multiple R-squared: 0.7149:
+We believe the linear model does predict the mpg of MechaCar prototypes. The r-squared from our linear regression model is .7149, which means that roughly 71% of all quarter-mile time predictions will be correct when using this linear model. 
+
+
+
+
+
+##SUSPENSION COIL SUMMARY
+
+Mean
+1499.531
+
+Median
+1499.747
+
+Variance
+76.23459
+
+Standard deviation
+8.731242
+
+According to this data, the variance for the MechaCar suspension coils is 76.23. Therefore, it does not exceed 100 pounds per inch, which meets the design specifications. 
+
+
+
+
+
+##SUSPENSION COIL T-TEST
+
+Welch Two Sample t-test
+
+data:  log10(sample_table$PSI) and log10(sample_table2$PSI)
+t = -0.31959, df = 13.188, p-value = 0.7543
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.001942667  0.001441343
+sample estimates:
+mean of x mean of y 
+ 3.176093  3.176343 
+ 
+Assuming our significance level was the standard 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+
+##DESIGN YOUR OWN STUDY
+
+After reviewing the above data, we believe more research must be done. We need to run multiple reports to see what consumers are looking for in a vehicle, the design, reliability, cost, fuel efficiency, safety, and body. All play a part in purchasing a car. Also, having a more extensive data set will help us determine whether the MechaCar will attract consumers. Another factor that can also determine how well the MechaCar does is if the car is environmentally friendly.  
+
+What characteristics determine the sale of a car?
+Ho -The color of the vehicle does not determine how many are sold. 
+Ha- The color of the vehicle does affect how many are sold. 
+
+Ho -Fuel efficiency does not control how many consumers purchase a specific vehicle.
+Ha -Fuel efficiency does affect how many consumers purchase a specific vehicle.
